@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4c6baf; /* Blue background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+    display: flex; /* Use Flexbox for horizontal layout */
+    justify-content: center; /* Center the items */
+}
+
+nav ul li {
+    margin: 0 10px; /* Space between links */
+}
+
+nav ul li a {
+    display: block; /* Makes the link fill the list item */
+    padding: 10px 15px; /* Padding inside the boxes */
+    background-color: white; /* White background for each link */
+    color: #4c6baf; /* Text color matches the header */
+    border: 2px solid #4c6baf; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from links */
+    font-family: 'Roboto', sans-serif; /* Fun font (ensure Roboto is imported) */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+nav ul li a:hover {
+    background-color: #e0e0e0; /* Light gray on hover */
+}
+
+
+section {
+    border: 2px solid rgb(34, 34, 233); /* Blue border for each section */
+    background-color: rgb(255, 255, 255); /* White background for text */
+    padding: 20px;
+    margin: 20px 0; /* Space between sections */
+    border-radius: 8px; /* Rounded corners */
+}
+
+h2 {
+    color: rgb(34, 34, 233); /* Blue color for header text */
+    background-color: rgb(255, 255, 255); /* White background for header text */
+    padding: 10px; /* Padding inside header text box */
+    border-radius: 5px; /* Rounded corners for header text box */
+    border: 2px solid rgb(34, 34, 233); /* Border for header text box */
+}
+
+.car-listing {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.car-listing:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+}
+.car-listing img {
+    width: 100%; /* Make the image responsive */
+    border-radius: 5px; /* Match the card style */
+    display: block; /* Ensures no extra space below the image */
+}
